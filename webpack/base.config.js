@@ -23,6 +23,7 @@ module.exports = {
     publicPath: 'bundles/'
   },
   resolve: {
+    extensions: [ '', '.js' ],
     root: [__dirname,path.join(__dirname, '../src'), path.join(__dirname, 'node_modules')]
   },
   resolveLoader: {
